@@ -20,7 +20,7 @@ const client = new Client({
 });
 
 const PREFIX = "!";
-const TOKEN = "MTQ5ODg4NDg2NjM4NzczODc3NQ.Ggd2aD.TTHs8AnYxVkfus40SRb3Gm_niLAvauk1uZM088";
+const TOKEN = process.env.TOKEN;
 const CARGO_ADD = "1498882263906258944";
 const CARGO_REMOVE = "1498882095416873021";
 const CANAL_PERMITIDO = "1499006024508772464";
