@@ -2,6 +2,7 @@ const { Client, GatewayIntentBits, EmbedBuilder } = require('discord.js');
 const fs = require('fs');
 const express = require("express");
 const app = express();
+console.log("TOKEN:", process.env.TOKEN);
 
 app.get("/", (req, res) => {
     res.send("Bot online!");
